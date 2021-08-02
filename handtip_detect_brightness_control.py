@@ -72,4 +72,4 @@ with mp_hands.Hands(
     if cv2.waitKey(5) == ord('q'):
       break
 cap.release()
-writer.release()
+#writer.release()
