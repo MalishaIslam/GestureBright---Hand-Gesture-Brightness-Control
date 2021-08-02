@@ -192,3 +192,20 @@ print(ll[2][0])# import cv2
 #         break
 # capture.release()
 
+import screen_brightness_control as sbc
+
+# get current brightness value
+print(sbc.get_brightness())
+
+# set brightness to 50%
+sbc.set_brightness(50)
+
+print(sbc.get_brightness())
+
+# set the brightness of the primary display to 75%
+sbc.set_brightness(80, display=0)
+
+print(sbc.get_brightness())
+
+ll = [[1,2],[3,4],[5,6]]
+print(ll[2][0])
