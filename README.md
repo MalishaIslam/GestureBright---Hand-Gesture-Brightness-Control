@@ -23,7 +23,6 @@ GestureBright/
 ├── handtip_detect_brightness_control.py  # Main app — hand detection + brightness control
 ├── brightness_control.py                 # Alternate version with volume/brightness toggle
 ├── handpart.py                           # Reusable hand detector module (class-based)
-└── blabla.py                             # Scratchpad / experimental tests
 ```
 
 ### File Overview
@@ -33,7 +32,6 @@ GestureBright/
 | `handtip_detect_brightness_control.py` | Primary script — uses MediaPipe directly, controls brightness via thumb-index distance |
 | `brightness_control.py` | Modular version — uses `handpart.py` class, supports both volume (pycaw) and brightness (sbc) |
 | `handpart.py` | Reusable `handdetector` class with `findhands()` and `findpos()` methods |
-| `blabla.py` | Scratch file for testing `screen_brightness_control` and early experiments |
 
 ---
 
